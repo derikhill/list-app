@@ -14,9 +14,16 @@ $('.enter-items').keydown(function(event) {
 		};
 	});
 
+// Crosses the item through to show completed
 $(document).on('click', '.check', function() {
   $(this).closest('li').addClass('completed');
   console.log('checked');
+});
+
+//Delets the item
+$(document).on('click', '.delete', function() {
+  $(this).closest('li').remove();
+  console.log('gone');
 });
 
 });
