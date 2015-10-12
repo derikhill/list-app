@@ -20,7 +20,7 @@ $(document).on('click', '.check', function() {
   console.log('checked');
 });
 
-//Delets the item
+//Deletes the item
 $(document).on('click', '.delete', function() {
   $(this).closest('li').remove();
   console.log('gone');
