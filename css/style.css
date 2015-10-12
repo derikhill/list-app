@@ -70,6 +70,8 @@ li {
 }
 .completed {
 	text-decoration: line-through;
+	background-color: #6C8DB2;
+	color: #fff;
 }
 .copy {
 	text-align: center;

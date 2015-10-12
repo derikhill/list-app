@@ -20,6 +20,12 @@ $(document).on('click', '.check', function() {
   console.log('checked');
 });
 
+//Removes the line through completed item
+$(document).on('click', '.completed', function() {
+  $(this).closest('li').removeClass('completed').addClass('list-items');
+  console.log('unchecked');
+});
+
 //Deletes the item
 $(document).on('click', '.delete', function() {
   $(this).closest('li').remove();
